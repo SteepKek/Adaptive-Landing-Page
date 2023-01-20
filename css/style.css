@@ -1,0 +1,213 @@
+/* ===================================================================================================================================================================== */
+
+@import url('zeroing.css');
+
+/* ===================================================================================================================================================================== */
+
+body {
+	font-family: 'Inter';
+	color: #fff;
+	font-weight: 400;
+	background-color: #1E1E1E;
+}
+
+/* ===================================================================================================================================================================== */
+
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	min-height: 100%;
+}
+
+/* ===================================================================================================================================================================== */
+
+
+
+/* ===================================================================================================================================================================== */
+
+[class*="__container"] {
+	max-width: 1340px;
+	padding: 0 15px;
+	margin: 0 auto;
+}
+
+/* ===================================================================================================================================================================== */
+
+.header {
+	background-color: #9BA0FC;
+}
+
+.header__container {
+	min-width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	min-height: 75px;
+	padding: 0 40px;
+
+}
+
+.header__logo-link {
+	display: inline-block;
+}
+
+.header__menu {
+	font-size: 24px;
+	font-weight: 600;
+	line-height: 0.8;
+	/* 24/29 */
+}
+
+.menu {}
+
+.menu-items {
+	display: flex;
+	column-gap: 70px;
+}
+
+.menu-item {}
+
+.menu-item-link {
+	color: #0E0C0C;
+	transition: color 0.3s ease 0s;
+}
+
+.menu-item-link:hover {
+	text-decoration: underline;
+	color: #326372;
+}
+
+/* ===================================================================================================================================================================== */
+
+.page {
+	flex: 1 1 auto;
+}
+
+.page__container {
+	display: flex;
+	justify-content: space-between;
+	column-gap: 40px;
+}
+
+.page__text {
+	margin-top: 365px;
+	max-width: 460px;
+}
+
+.page-title {
+	font-weight: 800;
+	font-size: 43px;
+	line-height: 0.8;
+	/* 48/58 */
+	text-transform: uppercase;
+	color: #9BA0FC;
+	letter-spacing: 1.4px;
+	margin-bottom: 32px;
+	padding: 3px 0;
+}
+
+.page-subtitle {
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 1.8;
+	margin-bottom: 45px;
+	padding: 3px 0;
+}
+
+.btn-link {
+	display: inline-block;
+}
+
+.btn {
+	text-align: center;
+	width: 210px;
+	height: 58px;
+	background-color: #7e87ff;
+	color: #0E0C0C;
+	font-weight: 600;
+	font-size: 24px;
+	line-height: 2.41;
+	/* 58/24 */
+	transition: background-color 0.4s ease 0s;
+}
+
+.btn:hover {
+	background-color: #9BA0FC;
+}
+
+.page-background {
+	display: flex;
+	column-gap: 25px;
+	margin-top: 125px;
+	padding: 0 15px;
+}
+
+.thin-image {
+	width: 11.4em;
+	height: 38.8em;
+}
+
+.wide-image {
+	width: 24.7em;
+	height: 38.8em;
+}
+
+.first-img {
+	background: #FFD280 url('../img/1img.png') no-repeat;
+	background-size: 100% auto;
+}
+
+.second-img {
+	background: #9BA0FC url('../img/2img.png') center 109px no-repeat;
+	background-size: contain;
+}
+
+.third-img {
+	background: #8FC7FF url('../img/3img.png') center no-repeat;
+	background-size: 100% auto;
+}
+
+/* ===================================================================================================================================================================== */
+
+.footer {
+	min-height: 200px;
+}
+
+/* ===================================================================================================================================================================== */
+
+@media (max-width: 1244px) {
+	.page__container {
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		flex-wrap: wrap;
+	}
+
+	.page__text {
+		text-align: center;
+		margin-top: 100px;
+	}
+
+	.page-background {}
+
+	.thin-image {
+		width: 15.4em;
+		height: 45.8em;
+	}
+
+	.wide-image {
+		width: 30.8em;
+		height: 45.8em;
+	}
+
+	.first-img {
+		background-position: center -67px;
+	}
+
+	.second-img {
+		background-position: center -2px;
+		background-size: calc(396px*1.1) calc(710px*1.1);
+	}
+}
+
+@media (max-width: 964px) {}
