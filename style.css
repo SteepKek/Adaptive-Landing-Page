@@ -153,17 +153,17 @@ body {
 }
 
 .first-img {
-	background: #FFD280 url('../img/1img.png') no-repeat;
+	background: #FFD280 url('img/1img.png') no-repeat;
 	background-size: 100% auto;
 }
 
 .second-img {
-	background: #9BA0FC url('../img/2img.png') center 109px no-repeat;
+	background: #9BA0FC url('img/2img.png') center 109px no-repeat;
 	background-size: contain;
 }
 
 .third-img {
-	background: #8FC7FF url('../img/3img.png') center no-repeat;
+	background: #8FC7FF url('img/3img.png') center no-repeat;
 	background-size: 100% auto;
 }
 
