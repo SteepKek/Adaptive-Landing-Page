@@ -17,6 +17,7 @@ body {
 	display: flex;
 	flex-direction: column;
 	min-height: 100%;
+	flex-wrap: wrap;
 }
 
 /* ===================================================================================================================================================================== */
@@ -29,6 +30,7 @@ body {
 	max-width: 1340px;
 	padding: 0 15px;
 	margin: 0 auto;
+	flex: 0 0 100%;
 }
 
 /* ===================================================================================================================================================================== */
@@ -38,7 +40,7 @@ body {
 }
 
 .header__container {
-	min-width: 100%;
+
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -103,6 +105,7 @@ body {
 	display: flex;
 	justify-content: space-between;
 	column-gap: 40px;
+	flex: 0 0 100%;
 }
 
 .page__text {
